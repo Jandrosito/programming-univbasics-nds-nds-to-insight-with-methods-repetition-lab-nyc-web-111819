@@ -28,6 +28,10 @@ def list_of_directors(source)
   new_array = []
   i = 0 
   while i < source.length
+  new_array << source[i]
+  i += 1 
+end 
+new_array
 end
 
 def total_gross(source)
